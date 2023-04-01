@@ -11,10 +11,7 @@ int c = int.Parse(Console.ReadLine());
 
 int max = a;
 
-if (b>max) {
-    max = b;
-}
-if (c>max) {
-    max = c;
-}
+if (b > max) max = b;
+if (c > max) max = c;
+
 Console.WriteLine("Наибольшее число: " +max);
